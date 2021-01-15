@@ -1,0 +1,132 @@
+:root{
+    
+    --color-fondo:rgb(263, 249, 249);
+    --color-principal: orange;
+    --fuente-principal: 'Raleway', sans-serif;
+
+}
+
+figcaption{
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 1.5vh;
+    
+}
+
+.minititulo{
+
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+
+.titulo{
+    
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.ptitulo{
+    
+    font-family: var(--fuente-principal);
+    color: silver;
+    font-weight: bold;
+    font-size: 1.2vh;
+}
+
+.btn-slider{
+
+    display: inline-flexbox;
+    /* flex-direction: column; */
+    border-radius: 0.8rem;
+    width: 13vh;
+    height: 16vh;
+    background-color: white;
+    text-align:center;
+    box-shadow: 5px 5px 5px rgb(231, 231, 231);
+    border:none;
+    padding: 0vh;
+    margin-right: 2vh;
+    text-align: center;
+}
+
+.imgslider{
+   
+    width: 7vh;
+    height: 7vh;
+    padding: 2vh;
+    padding-bottom: 2vh;
+}
+
+.img-producto{
+
+    display: inline-flex;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 2rem;
+    
+}
+
+.precio{
+
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 1.5vh;
+    color: var(--color-principal);
+}
+
+.tituloproducto{
+
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+
+.descproducto{
+
+    font-family: var(--fuente-principal);
+    color: grey;
+    font-size: 1.2;
+    align-content: center;
+}
+
+.imgfooter{
+    
+    width: 4vh;
+    height: 4vh;
+    background-color: var(--color-fondo);
+}
+
+.btn-footer{
+
+    border: none;
+    background-color: var(--color-fondo);
+    margin: 2rem;
+}
+
+.btn-comprar{
+
+    border-radius: 40rem;
+    width: 6vh;
+    height: 6vh;
+    background-color: var(--color-principal);
+    border:none;
+    box-shadow: 10px 5px 5px silver;
+    margin-bottom: 8rem;
+}
+
+.btn-mm{
+
+    background-color: white;
+    border: none;
+    width: 3vh;
+    height: 3vh; 
+}
+
+.btn-counter{
+    background-color: rgb(219, 216, 216);
+    padding: 0.5vh;
+}
