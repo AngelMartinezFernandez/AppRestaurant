@@ -19,7 +19,6 @@ body{
  
 }
 
-
 main{
     margin-top: 32vh;
     margin-bottom: 15vh;
@@ -37,9 +36,11 @@ header{
     background-color: var(--color-fondo);
     margin-right: auto;
     margin-left: auto;
+    left: 0vw;
+    
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 footer{
@@ -74,11 +75,10 @@ and (min-device-width : 768px){
         padding-top: 2vh;
         background-color: var(--color-fondo);
     }
-
 }
 
 @media only screen 
-and (min-device-width : 768px){
+and (min-device-width : 1100px){
 
     footer{
         position: fixed;
@@ -94,7 +94,77 @@ and (min-device-width : 768px){
         padding-top: 2vh;
         background-color: var(--color-fondo);
     }
+    
+    .up-block{
+        padding-left: 12vw;
+        padding-top: 2vh;
+        background-color: var(--color-fondo);
+        position: fixed;
+        display: grid;
+        justify-content: center;
 
+    
+    }
+    
+    main{
+    
+        background-color: rgb(263, 249, 249);
+        
+        display: grid;
+        grid-area: auto;
+        justify-content: space-around;
+        padding-left: 35vw;
+        /* grid-template-rows: auto auto auto; */
+        /* grid-template-columns: auto auto; */
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-content: space-between; */
+    }
+}
+
+@media only screen 
+and (min-device-width : 1350px){
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        /* padding-right:auto; */
+        padding-left: 35vw;
+        /* display: flex; */
+        padding-bottom: 5%;
+        width: 100vh;
+        /* filter: drop-shadow(0px -5px 10px #B4B4B4); */
+        padding-top: 2vh;
+        background-color: var(--color-fondo);
+    }
+    
+    .up-block{
+        padding-left: 12vw;
+        padding-top: 2vh;
+        background-color: var(--color-fondo);
+        position: fixed;
+        display: grid;
+        justify-content: center;
+
+    
+    }
+    
+    main{
+    
+        background-color: rgb(263, 249, 249);
+        
+        display: grid;
+        grid-area: auto;
+        justify-content: space-around;
+        padding-left: 35vw;
+        /* grid-template-rows: auto auto auto; */
+        /* grid-template-columns: auto auto; */
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-content: space-between; */
+    }
 }
 
 nav {
