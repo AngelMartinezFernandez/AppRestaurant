@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
+    <link rel="stylesheet" href="./css/stylescarrito.css">
 </head>
 <body>
-    <button><a href="./index.html"><</a></button>
-    <h2>Mi Carrito</h2>
+    <header>
+        <button><a href="./index.html"><</a></button>
+        <h2>Mi Carrito</h2>
+    </header>
+    
     <main>
         <section>
             <article class="menu-plato">
@@ -100,5 +104,29 @@
             </article>
         </section>
     </main>
+    <footer>
+        <input type="text" placeholder="Nombre">
+        <article>
+            <section>
+                <label for="subtotal">SubTotal</label>
+                <input type="number" name="subtotal" id="subtotalImpuestos" readonly>
+            </section>
+            <section>
+                <label for="impuestos">Impuestos</label>
+                <input type="number" name="empuestos" id="empuestos" readonly>
+            </section>
+            <section>
+                <label for="envio">Envio</label>
+                <input type="text" name="envio" id="envio" readonly>
+            </section>
+            <section>
+                <label for="total">total</label>
+                <input type="number" name="total" id="total" readonly>
+            </section>
+            <section>
+                <input type="button" value="Enviar Pedido">
+            </section>
+        </article>
+    </footer>
 </body>
 </html>
